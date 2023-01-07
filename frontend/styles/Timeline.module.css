@@ -1,0 +1,18 @@
+.imagedisplay {
+  display: flex;
+}
+.imagedisplay img {
+  height: 85vh;
+  margin: auto;
+}
+
+.timeslider {
+  position: fixed;
+  bottom: 0px;
+  height: auto;
+  width: 90vw;
+  background-color: aliceblue;
+  padding: 0 50px;
+  margin-left: 5%;
+  border-radius: 15px;
+}
