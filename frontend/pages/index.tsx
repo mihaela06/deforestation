@@ -34,7 +34,7 @@ export default function Home () {
           >
             <input
               type='number'
-              step='.01'
+              step='.000001'
               min='-90'
               max='90'
               id='lat'
@@ -44,7 +44,7 @@ export default function Home () {
             />
             <input
               type='number'
-              step='.01'
+              step='.000001'
               min='-180'
               max='180'
               id='long'

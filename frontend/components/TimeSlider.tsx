@@ -12,7 +12,7 @@ interface TimeSliderProps {
 
 function getLabel (value: number) {
   var date = new Date(value)
-  return date.getMonth() + '/' + date.getFullYear()
+  return (date.getMonth() + 1) + '/' + date.getFullYear()
 }
 
 export const TimeSlider = (props: TimeSliderProps) => {

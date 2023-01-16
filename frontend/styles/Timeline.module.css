@@ -1,9 +1,14 @@
 .imagedisplay {
   display: flex;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
 }
+
 .imagedisplay img {
   height: 100vh;
-  margin: auto;
+  justify-self: center;
+  filter: brightness(200%);
 }
 
 .timeslider {
